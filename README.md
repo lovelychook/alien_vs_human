@@ -1,2 +1,1 @@
-homework
-a funny 1v1 game
+homework, a funny 1v1 game
