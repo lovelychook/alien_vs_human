@@ -99,8 +99,10 @@ class AlienInvasion:
                 self.bullet_alien.remove(bullet_alien)
         if pygame.sprite.spritecollideany(self.ship, self.bullet_alien):
             print("Ship hit!!!")
+            sys.exit()
         if pygame.sprite.spritecollideany(self.alien, self.bullet):
             print("Alien hit!!!")
+            sys.exit()
 
     def run_game(self):
             #开始游戏循环
