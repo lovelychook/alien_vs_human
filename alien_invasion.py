@@ -101,7 +101,7 @@ class AlienInvasion:
             print("Ship hit!!!")
             sys.exit()
         if pygame.sprite.spritecollideany(self.alien, self.bullet):
-            print("Alien hit!!!")
+            print("Alien hit!!!")   #显示谁被击中了
             sys.exit()
 
     def run_game(self):
